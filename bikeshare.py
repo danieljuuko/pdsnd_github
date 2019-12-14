@@ -89,7 +89,7 @@ while True:
         while startstime.lower() == 'yes':
 
 
-           # print('\nCalculating The Most Frequent Times of Travel...\n')
+
             start_time = time.time()
 
             # TO DO: display the most common month, TO DO: display the most common day of week, TO DO: display the most common start hour
@@ -108,7 +108,7 @@ while True:
         startstation = input('\nHello! Would you like to get some US bikeshare about the Most Popular Stations and Trips? Enter yes or no.\n')
         while startstation.lower() == 'yes':
 
-            #print('\nCalculating The Most Popular Stations and Trip...\n')
+
             start_time = time.time()
 
             # TO DO: display most commonly used start station, TO DO: display most commonly used end station, TO DO: display most frequent combination of start station and end station trip
@@ -125,7 +125,7 @@ while True:
         starttrip = input('\nHello! Would you like to get some US bikeshare about the Trip Durations? Enter yes or no.\n')
         while starttrip.lower() == 'yes':
 
-           # print('\nCalculating Trip Duration...\n')
+
             start_time = time.time()
 
             # TO DO: display total travel time, TO DO: display mean travel time
@@ -143,7 +143,7 @@ while True:
         while startuser.lower() == 'yes':
 
 
-            #print('\nCalculating User Stats...\n')
+            
             start_time = time.time()
 
             # TO DO: Display counts of user types
