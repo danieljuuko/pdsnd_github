@@ -84,7 +84,7 @@ while True:
 
     def time_stats(df):
         """Displays statistics on the most frequent times of travel."""
-        startstime = input('\nHello! Would you like to get some US bikeshare about the Most Frequent Times of Travel? Enter yes or no.\n')
+        startstime = input('\nWould you like to get some US bikeshare calculating the Most Frequent Times of Travel? Enter yes or no.\n')
         while startstime.lower() == 'yes':
 
             start_time = time.time()
@@ -100,7 +100,7 @@ while True:
 
     def station_stats(df):
         """Displays statistics on the most popular stations and trip."""
-        startstation = input('\nHello! Would you like to get some US bikeshare about the Most Popular Stations and Trips? Enter yes or no.\n')
+        startstation = input('\nHow about some US bikeshare calculating the Most Popular Stations and Trips? Enter yes or no.\n')
         while startstation.lower() == 'yes':
 
 
@@ -116,7 +116,7 @@ while True:
 
     def trip_duration_stats(df):
         """Displays statistics on the total and average trip duration."""
-        starttrip = input('\nHello! Would you like to get some US bikeshare about the Trip Durations? Enter yes or no.\n')
+        starttrip = input('\nHow about some US bikeshare calculating the Trip Durations? Enter yes or no.\n')
         while starttrip.lower() == 'yes':
 
             start_time = time.time()
@@ -130,7 +130,7 @@ while True:
 
     def user_stats(df):
         """Displays statistics on bikeshare users."""
-        startuser = input('\nHello! Would you like to get some US bikeshare about the User Stats? Enter yes or no.\n')
+        startuser = input('\nLastly, how about some US bikeshare calculating the User Stats? Enter yes or no.\n')
         while startuser.lower() == 'yes':
 
             start_time = time.time()
