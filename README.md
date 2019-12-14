@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+Project was created in November 2019
 
 ### Project Title
-Replace the Project Title
+Bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Project was built to analyze bike share data in USA cities.
 
 ### Files used
-Include the files used
+chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+I like to thank the stack overflow community, for the awesome platform that has taught me never to fear coding.
