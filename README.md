@@ -18,3 +18,5 @@ I like to thank the stack overflow community, for the awesome platform that has 
 https://stackoverflow.com/
 https://www.udacity.com/
 you guys are the best.
+
+Many thanks to all the Udacity reviewers that directed the final results of the project.
