@@ -82,13 +82,10 @@ while True:
 
         return df
 
-
     def time_stats(df):
         """Displays statistics on the most frequent times of travel."""
         startstime = input('\nHello! Would you like to get some US bikeshare about the Most Frequent Times of Travel? Enter yes or no.\n')
         while startstime.lower() == 'yes':
-
-
 
             start_time = time.time()
 
@@ -101,8 +98,6 @@ while True:
 
             break
 
-
-
     def station_stats(df):
         """Displays statistics on the most popular stations and trip."""
         startstation = input('\nHello! Would you like to get some US bikeshare about the Most Popular Stations and Trips? Enter yes or no.\n')
@@ -114,7 +109,6 @@ while True:
             # TO DO: display most commonly used start station, TO DO: display most commonly used end station, TO DO: display most frequent combination of start station and end station trip
             display('Most commonly used start station is',df['Start Station'].mode().to_string(index=False),', Most commonly used end station is',df['End Station'].mode().to_string(index=False),', Most frequent start-end station trip is',df[['Start Station', 'End Station']].apply(lambda x: ''.join(x), axis=1).mode().to_string(index=False))
 
-
            # print("\nThis took %s seconds." % (time.time() - start_time))
             print('-'*40)
             break
@@ -125,25 +119,20 @@ while True:
         starttrip = input('\nHello! Would you like to get some US bikeshare about the Trip Durations? Enter yes or no.\n')
         while starttrip.lower() == 'yes':
 
-
             start_time = time.time()
 
             # TO DO: display total travel time, TO DO: display mean travel time
             display('Total travel time is',df['Trip Duration'].sum(),', Mean travel time is',df['Trip Duration'].mean())
 
-
             #print("\nThis took %s seconds." % (time.time() - start_time))
             print('-'*40)
             break
-
 
     def user_stats(df):
         """Displays statistics on bikeshare users."""
         startuser = input('\nHello! Would you like to get some US bikeshare about the User Stats? Enter yes or no.\n')
         while startuser.lower() == 'yes':
 
-
-            
             start_time = time.time()
 
             # TO DO: Display counts of user types
@@ -181,7 +170,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
