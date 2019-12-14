@@ -1,5 +1,5 @@
 ### Date created
-Project was created in November 2019
+Project was created between 1/11/2019 to around 29/11/2019.
 
 ### Project Title
 Bikeshare
